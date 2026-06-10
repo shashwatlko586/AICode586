@@ -1,0 +1,29 @@
+# Core orchestration & API
+langgraph>=0.2.0
+langchain-core>=0.3.0
+langchain-google-vertexai>=2.0.0
+pydantic>=2.0.0
+fastapi>=0.115.0
+uvicorn[standard]>=0.32.0
+streamlit>=1.40.0
+httpx>=0.27.0
+python-dotenv>=1.0.0
+
+# RAG & documents
+chromadb>=0.5.0
+weaviate-client>=4.9.0
+pinecone>=5.0.0
+pypdf>=5.0.0
+langchain-text-splitters>=0.3.0
+
+# Market analyst & draftsman
+pytrends>=4.9.0
+pandas>=2.0.0
+matplotlib>=3.8.0
+
+# Observability
+langfuse>=2.0.0
+
+# GCP
+google-cloud-aiplatform>=1.70.0
+google-cloud-secret-manager>=2.21.0
